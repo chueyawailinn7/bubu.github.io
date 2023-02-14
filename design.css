@@ -1,0 +1,102 @@
+.navbar,.footer{ background: white;
+		height: 10vh; }
+		.banner, .card-section { background: #F6B165;
+		height: 50vh; }
+
+		.card-section { background: #D58D57;
+		display: flex;
+		justify-content: space-around;
+		align-items: center; }
+
+		.child1{ width: 30%;
+		     height: 40vh;
+		border: 1px solid white;
+		justify-content: space-around; }
+
+		.channel{ width: 100%;
+			height: 130vh;
+		background: #B36C49; 
+		display: flex; }
+
+		.btngp{ width: 20%;
+		    border: 1px solid black; }
+
+		.viewsection{ width: 80%;
+		border: 1px solid black; }
+
+		.btn{ width: 50%;
+		     height: 5vh; }
+
+	    .ytbanner{ }
+
+		.btnmg{ 
+		     margin-left: 20%; }
+
+	    .btn2{ width: 20%;
+		       	height: 5vh;}
+
+		.img{  width: 80%;
+		       height: 22vh;
+		      border: 1px solid black;
+		      text-align: center;
+		      margin-left: 50px; }
+
+		#video{ display: flex;
+		        text-align: center;
+		        justify-content: space-between; }
+
+		.video{ width: 25%;
+		        height: 25vh;
+		        border: 1px solid black; 
+		        justify-content: space-between;}
+
+		.ytrecommend{ display: flex; }
+
+		.ytrecent{ display: flex; }
+
+		#txt{ display: flex;
+		     text-align: center;
+		     justify-content: space-around; }
+
+		.txt{ width: 15%;
+		      height: 15vh;
+		      justify-content: space-around;
+		      border: 1px solid black; }
+
+	    .footer{ 
+		 	display: flex;
+	        height: 30vh; 
+	        justify-content: space-between;
+	        }
+
+	    .socialmedia,.contact,.map{
+	        	width: 30%;
+	        }
+#nav ul li{
+	float: left;
+	list-style: none; /* to remove bullet style*/
+	margin: 0 5px; /* top$bottom left$right*/
+	color: #B36C49 ;
+	opacity: 0.3;
+}
+/*psuedo element(Element:hover)*/
+#nav ul li a:hover{
+	opacity: 1;
+	cursor: pointer;
+	color: #D58D57;
+	font-weight: bold;
+	/*text-shadow: x y blur color;*/
+	text-shadow: 2px 2px 5px #B36C49;
+	background: white;
+}
+body{
+	margin: 0;
+}
+#nav{
+	overflow: hidden;
+}
+div.banner{
+	/*background: ;*/
+	background-image:url('flower.jpg');
+	/*background-size: cover;*/
+}
